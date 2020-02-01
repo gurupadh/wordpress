@@ -1,5 +1,6 @@
 HIDING ADMIN BAR FOR EVERYONE 
 
 under function.php
+
 <?php
-add_filter('show_admin_bar', '_return_false');
+add_filter('show_admin_bar', '__return_false');
